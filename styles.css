@@ -45,6 +45,8 @@ border-radius: 1rem;
     color: #fff;
     margin: 1rem auto;
     border-radius: 2rem;
+    cursor: pointer;
+    margin-right: 1rem;
 }
 
 .link-secondary{
@@ -56,12 +58,14 @@ border-radius: 1rem;
     color:#7c3aed;
     margin: 1rem auto;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 .list-item-inline{
 
     display: inline;
-    padding: 0 0.5rem;;
+    padding: 0 0.5rem;
+    cursor: pointer;
 }
 
 /*navigation*/
@@ -89,6 +93,7 @@ border-radius: 1rem;
 
 .link-active{
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* header */
@@ -126,4 +131,8 @@ border-radius: 1rem;
 .social-links{
 
     text-align: center;
+}
+
+.project-description{
+    padding: 1rem;
 }
